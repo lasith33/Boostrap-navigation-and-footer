@@ -237,3 +237,68 @@ section{
     text-align: center;
     padding-top: 100px;
 }
+
+#footer{
+    position: relative;
+    height: 100px;
+    margin-top: 100px;
+    padding-bottom: -100px;
+}
+.footer_wrapper{
+    background: url(footer_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 15rem;
+    padding-bottom: 0rem;
+    margin-top: auto;
+    position: relative;
+    
+  }
+  .footer_wrapper h5{
+    color: white;
+    font-size:2.5rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .footer_wrapper ul li{
+    margin-bottom: 0.5rem;
+    list-style: none;
+  }
+  .footer_wrapper .company_details{
+    font-size: 1.4rem;
+  }
+  .footer_wrapper .contact-info li a{
+    color: gray;
+    font-size: 1.6rem;
+  }
+  .footer_wrapper .link-widget li a,
+  .footer_wrapper p{
+    color: gray;
+    font-size: 1.6rem;
+    padding-left: 0.2rem;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .footer_wrapper .social-network a{
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.2rem;
+    margin: .5rem;
+    display: inline-block;
+    border: 0.125rem solid gray;
+    color: gray;
+    text-align: center;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045,0.355,1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045,0.355,1);
+  }
+  
+  .footer_wrapper .social-network a:hover{
+    background-color: greenyellow;
+    border-color: #5cb917;
+    color: white;
+    box-shadow: 0 0.625rem .9375rem 0 rgb(0 0 0/10%);
+    transform: translateY(-0.1875rem);
+  }
